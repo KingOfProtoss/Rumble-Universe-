@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/_Scenes/Alexander's.unity
+  isLoaded: 1
+  isActive: 1
