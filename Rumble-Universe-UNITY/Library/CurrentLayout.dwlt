@@ -71,7 +71,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 75
+  controlID: 9
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 76
+  controlID: 10
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 77
+  controlID: 11
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -356,30 +356,30 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Example Rooms/StoneFloorTexture
+    - Assets/Example Rooms
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/StoneFloorTexture
+  - Assets/Example Rooms
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\1grouixmat\Documents\GitHub\Rumble-Universe-\Rumble-Universe-UNITY
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f8250000
-    m_LastClickedID: 9720
-    m_ExpandedIDs: 00000000b024000072250000742500008a25000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 11}
+    m_SelectedIDs: a4250000
+    m_LastClickedID: 9636
+    m_ExpandedIDs: 0000000022250000a4250000ee250000f02500004a2c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Scrips
-      m_OriginalName: Scrips
+      m_Name: Building_Blocks_LITE
+      m_OriginalName: Building_Blocks_LITE
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 9452
+      m_UserData: 11338
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -396,7 +396,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b02400007225000074250000
+    m_ExpandedIDs: 0000000022250000a4250000ee250000f0250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -427,18 +427,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c62300008026000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 2 Door Room
-      m_OriginalName: 2 Door Room
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 9616
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 2}
     m_CreateAssetUtility:
@@ -512,9 +512,9 @@ MonoBehaviour:
     height: 584
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3eeeffff
-    m_LastClickedID: -4546
-    m_ExpandedIDs: a2eeffff20efffff9eefffff98f9ffffe4fbffff00000000
+    m_SelectedIDs: 82250000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 88c5ffff2cc6ffffd8c6ffff6ac7ffff0ec8ffffbac8ffff4cc9fffff0c9ffff82caffffecd0ffff52d6ffff52d8ffffd2d8ffff4ae7fffff2e7ffffcafbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -564,14 +564,14 @@ MonoBehaviour:
     width: 628
     height: 584
   m_SceneLighting: 1
-  lastFramingTime: 150.9106002140563
+  lastFramingTime: 798.8083025243827
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.40970784, y: -0.2004527, z: 0}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: -0.40970784, y: -0.2004527, z: 0}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -598,9 +598,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.5659895
+    m_Target: 11.92391
     speed: 2
-    m_Value: 9.5659895
+    m_Value: 11.92391
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -709,7 +709,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 898
-    width: 1526
+    x: 8
+    y: 704
+    width: 896
     height: 250
