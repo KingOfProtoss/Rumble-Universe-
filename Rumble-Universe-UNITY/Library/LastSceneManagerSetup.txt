@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Example Rooms/2 Door Room.unity
+- path: Assets/_Scenes/Alexander's/Alexander's.unity
   isLoaded: 1
   isActive: 1
