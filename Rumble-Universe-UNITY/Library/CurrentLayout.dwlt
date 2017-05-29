@@ -13,8 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 607
-    y: 133
+    x: 567
+    y: 131
     width: 1264
     height: 933
   m_ShowMode: 4
@@ -68,10 +68,10 @@ MonoBehaviour:
     y: 30
     width: 1264
     height: 883
-  m_MinSize: {x: 681, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 683, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 35
+  controlID: 11
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 36
+  controlID: 12
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 37
+  controlID: 13
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -391,8 +391,8 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 607
-    y: 789
+    x: 567
+    y: 787
     width: 985
     height: 255
   m_SearchFilter:
@@ -406,33 +406,33 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/_Scenes/Alexander's/Textures
+    - Assets/_Scenes/Alexander's/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/_Scenes/Alexander's/Textures
+  - Assets/_Scenes/Alexander's/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Gareth Tingling\Rumble-Universe-\Rumble-Universe-UNITY
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 54}
-    m_SelectedIDs: 4a250000
-    m_LastClickedID: 9546
+    m_SelectedIDs: 12250000
+    m_LastClickedID: 9490
     m_ExpandedIDs: 00000000b4240000d8240000362500004a25000064250000ea250000ec25000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Sprites
+      m_OriginalName: Sprites
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 9588
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 2}
     m_SearchString: 
@@ -523,11 +523,11 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1596
-    y: 182
+    x: 1556
+    y: 180
     width: 275
     height: 862
-  m_ScrollPosition: {x: 0, y: 240}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160
@@ -556,14 +556,14 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 607
-    y: 182
+    x: 567
+    y: 180
     width: 308
     height: 586
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 96250000
-    m_LastClickedID: 9622
+    m_SelectedIDs: 4ef3ffff
+    m_LastClickedID: -3250
     m_ExpandedIDs: e6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -609,8 +609,8 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 919
-    y: 182
+    x: 879
+    y: 180
     width: 673
     height: 586
   m_SceneLighting: 1
@@ -648,9 +648,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.5659895
+    m_Target: 10.4463
     speed: 2
-    m_Value: 9.5659895
+    m_Value: 10.4463
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -683,8 +683,8 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 919
-    y: 182
+    x: 879
+    y: 180
     width: 673
     height: 586
   m_MaximizeOnPlay: 0
