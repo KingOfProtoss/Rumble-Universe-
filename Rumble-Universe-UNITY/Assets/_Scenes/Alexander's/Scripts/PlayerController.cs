@@ -8,33 +8,59 @@ public class PlayerController : MonoBehaviour {
     public float speed;
     Rigidbody2D rb;
     public bool Keyboard = false;
+	Animator anim;
+	SpriteRenderer Image;
+
+
 
 	void Start () {
         rb = GetComponent<Rigidbody2D>();
+		anim = GetComponent<Animator> ();
+		Image = GetComponent<SpriteRenderer> ();
        
     }
-	
+
+	void Update()
+	{
+		
+		if (Input.GetButtonDown ("Jump") == true) {
+			PowerUp ();
+		}
+
+	}
+
 	// Update is called once per frame
 	void FixedUpdate () {
-        float LeftRight = Input.GetAxis("Horizontal");
-        float UpDown = Input.GetAxis("Vertical");
+
+
+		if(rb.velocity.x>0f){
+			Image.flipX = false;
+			}
+        float LeftRight = Input.GetAxisRaw("Horizontal");
+        float UpDown = Input.GetAxisRaw("Vertical");
         UpdateMovement(LeftRight, UpDown);
+
         
         }
     void UpdateMovement(float LeftRight, float UpDown)
     {
-        Keyboard = true;
+		if (LeftRight == -1) {
+			Image.flipX = enabled;
+		}
+		
         rb.velocity = new Vector2(LeftRight * speed, UpDown * speed);
+		anim.SetFloat ("Speed", Mathf.Abs(rb.velocity.x));
         
         
     }
-    public void Update()
-    {
-        if (Keyboard == false)
-            FreezePlayer();
-    }
-    public void FreezePlayer()
-    {
-        Transform.SetP
-    }
+
+	public void PowerUp()
+	{
+		anim.SetTrigger ("PowerUp");
+	}
+
+
+
+
 }
+    
