@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/Matt's.unity
+- path: Assets/Example Rooms/2 Door Room.unity
   isLoaded: 1
   isActive: 1
