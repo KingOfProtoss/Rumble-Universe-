@@ -6,10 +6,7 @@ public class CursorController : MonoBehaviour {
 
 	public Vector3 Cursor;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+
 	
 	// Update is called once per frame
 	void Update () {

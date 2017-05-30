@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour {
 	SpriteRenderer Image;
 	public GameObject ProjectilePrefab;
 	public GameObject Player;
+	string Projectile;
 
 
 
@@ -19,6 +20,7 @@ public class PlayerController : MonoBehaviour {
         rb = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator> ();
 		Image = GetComponent<SpriteRenderer> ();
+		Projectile = "Projectile";
 
 
        
@@ -31,7 +33,7 @@ public class PlayerController : MonoBehaviour {
 			PowerUp ();
 		}
 		if(Input.GetButtonDown("Fire1")==true){
-			FIRE();
+			FIRE(Projectile);
 		}
 
 	}
@@ -54,7 +56,7 @@ public class PlayerController : MonoBehaviour {
 		if (LeftRight == -1) {
 			Image.flipX = enabled;
 		}
-		
+
         rb.velocity = new Vector2(LeftRight * speed, UpDown * speed);
 		anim.SetFloat ("Speed", Mathf.Abs(rb.velocity.x));
         
@@ -67,10 +69,10 @@ public class PlayerController : MonoBehaviour {
 	}
 
 
-	private void FIRE()
+	private void FIRE(string Projectile)
 	{
 		GameObject Clone;
-		Clone = (Instantiate (ProjectilePrefab, transform.position, transform.rotation)) as GameObject;
+		Clone = Instantiate (Resources.Load (Projectile), gameObject.transform) as GameObject;
 		Destroy (Clone, 2.0f);
 
 
