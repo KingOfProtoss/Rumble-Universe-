@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour {
 	Animator anim;
 	SpriteRenderer Image;
 	public GameObject ProjectilePrefab;
+	public GameObject Player;
+
 
 
 
@@ -17,6 +19,7 @@ public class PlayerController : MonoBehaviour {
         rb = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator> ();
 		Image = GetComponent<SpriteRenderer> ();
+
        
     }
 

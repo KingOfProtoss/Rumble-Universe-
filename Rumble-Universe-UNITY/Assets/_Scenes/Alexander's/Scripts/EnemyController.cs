@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyController : MonoBehaviour {
-	public GameObject Player;
+	GameObject Player;
 	Rigidbody2D rb;
 	public float enemyspeed;
 
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody2D> ();
+		Player = GameObject.FindWithTag ("Player");
 	}
 	
 	// Update is called once per frame
