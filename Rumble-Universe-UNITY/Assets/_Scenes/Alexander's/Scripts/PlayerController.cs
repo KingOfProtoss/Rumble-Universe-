@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour {
 	public GameObject ProjectilePrefab;
 	public GameObject Player;
 	string Projectile;
+	GameObject Cursor;
+	float angle;
 
 
 
@@ -21,6 +23,7 @@ public class PlayerController : MonoBehaviour {
 		anim = GetComponent<Animator> ();
 		Image = GetComponent<SpriteRenderer> ();
 		Projectile = "Projectile";
+		Cursor = GameObject.FindWithTag ("Cursor");
 
 
        
@@ -36,7 +39,49 @@ public class PlayerController : MonoBehaviour {
 			FIRE(Projectile);
 		}
 
+		angle = Mathf.Abs((Mathf.Atan2 (Mathf.Abs(Cursor.transform.position.y) - Mathf.Abs(transform.position.y), Mathf.Abs(Cursor.transform.position.x) - Mathf.Abs(transform.position.x)))*Mathf.Rad2Deg);
+
+		if (angle > 45f) {
+			if (Cursor.transform.position.y - transform.position.y > 0)
+				Debug.Log ("above");
+			else
+				Debug.Log ("Below");
+		}
+
+		if (angle < 45f) {
+			if (Cursor.transform.position.x - transform.position.x > 0)
+				Debug.Log ("right");
+			else
+				Debug.Log ("Left");
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	}
+		
 
 	// Update is called once per frame
 	void FixedUpdate () {
