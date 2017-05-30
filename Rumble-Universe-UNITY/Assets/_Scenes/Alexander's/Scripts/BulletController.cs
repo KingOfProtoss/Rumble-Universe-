@@ -25,6 +25,10 @@ public class BulletController : MonoBehaviour {
 
 	}
 
+	void OnTriggerEnter2D()
+	{
+		Destroy (gameObject);
+	}
 
 
 }
