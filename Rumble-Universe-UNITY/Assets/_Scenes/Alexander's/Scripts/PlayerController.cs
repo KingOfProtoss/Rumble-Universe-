@@ -7,9 +7,9 @@ public class PlayerController : MonoBehaviour {
     // Use this for initialization
     public float speed;
     Rigidbody2D rb;
-    public bool Keyboard = false;
 	Animator anim;
 	SpriteRenderer Image;
+	public GameObject ProjectilePrefab;
 
 
 
@@ -25,6 +25,9 @@ public class PlayerController : MonoBehaviour {
 		
 		if (Input.GetButtonDown ("Jump") == true) {
 			PowerUp ();
+		}
+		if(Input.GetButtonDown("Fire1")==true){
+			FIRE();
 		}
 
 	}
@@ -57,6 +60,16 @@ public class PlayerController : MonoBehaviour {
 	public void PowerUp()
 	{
 		anim.SetTrigger ("PowerUp");
+	}
+
+
+	private void FIRE()
+	{
+		GameObject Clone;
+		Clone = (Instantiate (ProjectilePrefab, transform.position, transform.rotation)) as GameObject;
+		Destroy (Clone, 2.0f);
+
+
 	}
 
 

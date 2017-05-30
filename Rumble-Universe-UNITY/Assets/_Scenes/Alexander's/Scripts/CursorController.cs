@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CursorController : MonoBehaviour {
 
-	public Vector3 Sloth;
+	public Vector3 Cursor;
 
 	// Use this for initialization
 	void Start () {
@@ -17,7 +17,7 @@ public class CursorController : MonoBehaviour {
 		Vector3 pz = Camera.main.ScreenToWorldPoint (Input.mousePosition);
 		pz.z = 0;
 		gameObject.transform.position = pz;
-		Sloth = gameObject.transform.position;
+		Cursor = gameObject.transform.position;
 			
 	}
 }
