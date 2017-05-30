@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour {
 		anim = GetComponent<Animator> ();
 		Image = GetComponent<SpriteRenderer> ();
 
+
        
     }
 

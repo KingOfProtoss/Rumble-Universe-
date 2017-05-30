@@ -68,10 +68,10 @@ MonoBehaviour:
     y: 30
     width: 1264
     height: 971
-  m_MinSize: {x: 681, y: 492}
+  m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 117
+  controlID: 46
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -116,8 +116,8 @@ MonoBehaviour:
     y: 0
     width: 202
     height: 640
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -207,10 +207,10 @@ MonoBehaviour:
     y: 0
     width: 987
     height: 971
-  m_MinSize: {x: 406, y: 492}
+  m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 69
+  controlID: 47
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -231,8 +231,8 @@ MonoBehaviour:
     y: 0
     width: 987
     height: 640
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
   controlID: 48
 --- !u!114 &11
@@ -285,15 +285,15 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 831
-    y: 338
-    width: 673
-    height: 586
+    x: 391
+    y: 190
+    width: 781
+    height: 619
   m_ViewPositions:
     m_KeySerializationHelper:
     - {fileID: 1107981682325345300, guid: 81289247a95fc524c927125a879eace0, type: 2}
     m_ValueSerializationHelper:
-    - {x: 415.80002, y: 219.6}
+    - {x: 480.6, y: 239.40002}
   m_PreviewAnimator: {fileID: 0}
   m_AnimatorController: {fileID: 9100000, guid: 81289247a95fc524c927125a879eace0,
     type: 2}
@@ -406,19 +406,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/_Scenes/Alexander's/Scripts
+    - Assets/_Scenes/Alexander's/Prefab
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/_Scenes/Alexander's/Scripts
+  - Assets/_Scenes/Alexander's/Prefab
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Gareth Tingling\Rumble-Universe-\Rumble-Universe-UNITY
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 15}
-    m_SelectedIDs: 2a250000
-    m_LastClickedID: 9514
-    m_ExpandedIDs: 00000000bc240000ea24000050250000642500007e250000342600003626000000ca9a3bffffff7f
+    m_SelectedIDs: 42250000
+    m_LastClickedID: 9538
+    m_ExpandedIDs: 00000000ba240000e82400004e250000622500007c250000302600003226000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -446,7 +446,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000bc240000ea24000050250000642500007e2500003426000036260000
+    m_ExpandedIDs: 00000000ba240000e82400004e250000622500007c2500003026000032260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -473,22 +473,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c623000080260000000000002e26000004290000f0280000162c0000c8260000
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c623000080260000000000002e26000004290000f0280000162c0000c826000056250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: PlayerController
-      m_OriginalName: PlayerController
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 1710
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 2}
     m_CreateAssetUtility:
@@ -567,18 +567,18 @@ MonoBehaviour:
     m_ExpandedIDs: e6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Projectile
-      m_OriginalName: Projectile
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 9696
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
